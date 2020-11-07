@@ -6,7 +6,7 @@ import './HomeScreenWorkout.css';
 const HomeScreenWorkout = () => {
     return (
         <Container>
-             <Row className='workout-wrapper'>
+             <Row className='workout-wrapper workout-cont'>
                 <Col sm={3} className='workout-button-placement'>
                     <button className='workout-button'>SHOP ALL</button>
                 </Col>
@@ -18,15 +18,16 @@ const HomeScreenWorkout = () => {
                 </Col>
             </Row>
             <Row>
-                <Col sm={5}>
+                <Col sm={5}  className='hero-image-workout'>               {/* changes                      added class name*/}
+
                     <div className='workout-hero-image'>
                         <img src={'/images/home_screen_workout_products/HomeScreenWorkoutHero.png'} alt='home_hero_img'/>
                     </div>
                 </Col>
-                <Col sm={7}>
-                    <Row className='workout-card-wrapper'>
+                <Col sm={7} className='workout-container'>
+                    <Row className='workout-card-wrapper'> {/* changes                      added class name*/}
                         {HomeScreenWorkoutProducts.map(product => (
-                            <Col className='home-card-items' key={product._id}>
+                            <Col className='home-card-items ' key={product._id}>
                                 <div>
                                     <img className='home-card-image' src={product.image} alt='home_1'/>
                                 </div>

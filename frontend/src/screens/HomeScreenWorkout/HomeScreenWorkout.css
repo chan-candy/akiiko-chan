@@ -58,3 +58,40 @@
   height: 190px;
   width: 190px;
 }
+
+@media (max-width: 1212px) {
+  .hero-image-workout {
+    display: none;
+  }
+  .home-card-title {
+    margin-right: 0px;
+  }
+  .workout-cont {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .workout-container {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+  }
+}
+/* RESPONSIVE  MEDIA QUERIES
+
+@media (max-width: 1239px) {
+  .home-card-items {
+    width: 33.333%;
+    margin: 0px;
+    padding: 0px;
+  }
+  .home-card-title {
+    margin: 0px;
+  }
+  .home-card-text {
+    margin: 0px;
+  }
+  .home-hero-image {
+    display: none;
+  }
+}*/
