@@ -1,0 +1,60 @@
+.workout-button {
+  margin-right: 65px;
+  margin-top: 120px;
+  padding: 18px 75px;
+  width: 240px;
+  background-color: #6e4e37;
+  color: #fff;
+  font-size: 17px;
+  border: 1px solid #6e4e37;
+}
+
+.workout-wrapper {
+  text-align: right;
+  margin-bottom: 50px;
+}
+
+.workout-title {
+  font-family: 'rutanLight';
+  color: #3a2f2d;
+  font-size: 82px;
+  letter-spacing: 13px;
+}
+
+.workout-hero-image img {
+  width: 480px;
+  height: 740px;
+}
+
+.workout-card-wrapper {
+  margin-left: 0px;
+}
+
+.workout-card-title {
+  white-space: nowrap;
+  background-color: #fefaef;
+  text-transform: uppercase;
+  font-family: 'rutan';
+  font-size: 16px;
+  text-align: left;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 180px;
+}
+
+.workout-card-text {
+  white-space: nowrap;
+  text-align: left;
+  padding: 15px;
+  font-size: 15px;
+  background-color: #f6f1ea;
+  text-transform: uppercase;
+  margin-bottom: 105px;
+  padding-right: 175px;
+}
+
+.workout-card-image img {
+  height: 190px;
+  width: 190px;
+}

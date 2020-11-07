@@ -1,0 +1,74 @@
+.women-wrapper {
+  margin-top: 30px;
+}
+
+.women-title {
+  font-family: 'rutanLight';
+  color: #3a2f2d;
+  text-align: left;
+  font-size: 82px;
+  letter-spacing: 13px;
+}
+
+.women-title-sub {
+  font-family: 'rutanLight';
+  text-align: left;
+  font-size: 28px;
+  letter-spacing: 4px;
+  margin-bottom: 25px;
+}
+
+.women-text {
+  font-family: 'rutan';
+  text-align: left;
+  font-size: 16px;
+  margin-bottom: 60px;
+}
+
+.women-button {
+  padding: 18px 75px;
+  width: 240px;
+  background-color: #6e4e37;
+  color: #fff;
+  font-size: 17px;
+  border: 1px solid #6e4e37;
+}
+
+.women-button {
+  position: absolute;
+  right: 0;
+  bottom: 72px;
+  margin-right: 20px;
+}
+
+.women-card-image img {
+  height: 229px;
+  width: 229px;
+}
+
+.women-card-title {
+  background-color: #fefaef;
+  width: 229px;
+  text-transform: uppercase;
+  font-family: 'rutan';
+  font-size: 16px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.women-card-text {
+  text-align: center;
+  width: 229px;
+  padding: 15px;
+  font-size: 15px;
+  background-color: #f6f1ea;
+  text-transform: uppercase;
+}
+
+.women-card-wrapper {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 25px;
+  justify-content: space-between;
+}
